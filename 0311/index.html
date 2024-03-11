@@ -25,6 +25,77 @@
 </head>
 
 <body>
+    <script>
+        // this is javascript
+        // HTML CSS are two topics (Not programming)
+        // JavaScript is not related to HTML, New topic, stand alone part (A programming language)
+        // LiveScript => (JavaScript)
+        // Java and JavaScript do not have a relationship
+        // not type safe language (not strict)
+        // JavaScript popular ()
+        // people want to add rules to javascript
+        // s1
+        "use strict"; //
+        // define variable
+        { // walls, block, small world
+            const age1 = 20; // variable is still undefined, flexible (can change)
+            let age2; // local variable 
+            var v1; // global variable
+
+            age2 = 20; // after this line age2 is a number variable now
+            age2 = 128.8 // after this line age2 is a double 
+            age2 = 'tom'; // "tom" -- in both instances this works
+            age2 = ``;
+
+            let name = "tom";
+            let age = 20;
+
+            let str = `The name is ${name}. The age is ${age}`
+            console.log(str);
+            //alert(str);
+
+            let stu; // undefined variable, local variable
+            stu =
+            {
+                name: "Tom",
+                age: 20,
+                grade: 96.6,
+
+            };
+            console.log(stu.grade)
+
+            let arr1; //local undefined
+            arr1 = ["Tom", "Jack"];
+            console.log(arr1.length);
+            console.log(arr1[1]);
+
+            // define a function
+            // way 1, not let when doing the parameters in a function even tho p1 and p2 are a local variable
+            function func1(p1,p2)
+            {
+                return p1 + p2; // return is not mandatory 
+            }
+
+            // way 2 arrow function
+            // ;
+            let func2 = (p1, p2) =>
+            {
+                return p1 * p2;
+            };
+
+            console.log(func1(2.3,3.0));
+            console.log(func2(2.3,3.0));
+        }
+    </script>
+
+    <script>
+        //s2
+        "use strict";
+        {
+            //age2 = 20;
+            
+        }
+    </script>
 
     <div id="div1"></div>
     <img id="img1" src="head1.png"/>
